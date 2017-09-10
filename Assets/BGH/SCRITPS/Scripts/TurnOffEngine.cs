@@ -2,22 +2,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TurnOffEngine : MonoBehaviour
 {
 
-    public Animator advertisement;
-    Renderer renderer;
-    public Texture texture;
     public float timeWait;
-    public Animator trafficLight;
     public RCCCarControllerV2 rcc;
+
+    public string scene;
+
     private void Start()
     {
-        advertisement = GetComponentInChildren<Animator>();
-        renderer = advertisement.GetComponentInChildren<Renderer>();
-        renderer.material.mainTexture = texture;
-        renderer.enabled = false;
+
     }
 
     bool active;
@@ -26,11 +23,8 @@ public class TurnOffEngine : MonoBehaviour
 	    if(c.tag == "Player" && !active)
         {
             active = true;
-            renderer.enabled = true;
-            advertisement.enabled = true;
             rcc.canControl = false;
             rcc.GetComponent<Rigidbody>().velocity = Vector3.zero;
-            advertisement.SetTrigger("open");
             StartCoroutine(WaitAdver(timeWait));
         }
 
@@ -39,9 +33,8 @@ public class TurnOffEngine : MonoBehaviour
     private IEnumerator WaitAdver(float timeWait)
     {
         yield return new WaitForSeconds(timeWait);
-        renderer.enabled = false;
+        SceneManager.LoadScene(scene);
         rcc.canControl = true;
-        trafficLight.enabled = true;
-        trafficLight.SetTrigger("open");
-}
+    }
+
 }
