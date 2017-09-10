@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: 8fec9af5bda4432429ffe0ac4843e9c6
+timeCreated: 1505076916
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: base
+    100002: base_iron_standers
+    100004: //RootNode
+    100006: ladder
+    100008: ladder_steps
+    100010: Light
+    100012: Light_1
+    100014: Light_2
+    100016: net
+    100018: nets
+    100020: piller
+    100022: the_billboard
+    100024: the_iron_plates
+    100026: the_under_billboard_iron_plates
+    400000: base
+    400002: base_iron_standers
+    400004: //RootNode
+    400006: ladder
+    400008: ladder_steps
+    400010: Light
+    400012: Light_1
+    400014: Light_2
+    400016: net
+    400018: nets
+    400020: piller
+    400022: the_billboard
+    400024: the_iron_plates
+    400026: the_under_billboard_iron_plates
+    2300000: base
+    2300002: base_iron_standers
+    2300004: ladder
+    2300006: ladder_steps
+    2300008: Light
+    2300010: Light_1
+    2300012: Light_2
+    2300014: net
+    2300016: nets
+    2300018: piller
+    2300020: the_billboard
+    2300022: the_iron_plates
+    2300024: the_under_billboard_iron_plates
+    3300000: base
+    3300002: base_iron_standers
+    3300004: ladder
+    3300006: ladder_steps
+    3300008: Light
+    3300010: Light_1
+    3300012: Light_2
+    3300014: net
+    3300016: nets
+    3300018: piller
+    3300020: the_billboard
+    3300022: the_iron_plates
+    3300024: the_under_billboard_iron_plates
+    4300000: Light_1
+    4300002: Light
+    4300004: Light_2
+    4300006: nets
+    4300008: the_under_billboard_iron_plates
+    4300010: net
+    4300012: ladder
+    4300014: ladder_steps
+    4300016: base_iron_standers
+    4300018: base
+    4300020: piller
+    4300022: the_iron_plates
+    4300024: the_billboard
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,7 +9,6 @@ public class VelocityChanger : MonoBehaviour {
 
     void OnTriggerEnter(Collider c)
     {
-        if (endOfTrip) GameManager.instance.EndLevel();
         CarController.instance.maxVelocity = maxVelocity;
     }
 }
