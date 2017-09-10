@@ -8,7 +8,7 @@ public class SelectMenu : MonoBehaviour {
 	void Update () {
         if (Input.GetAxis("Vertical") > 0.8f)
         {
-            SceneManager.LoadScene("GamePlay-Park");
+            SceneManager.LoadScene("GamePlay-Ciudad");
         }
 	}
 }

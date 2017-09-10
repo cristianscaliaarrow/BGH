@@ -13,7 +13,7 @@ public class GameOver : MonoBehaviour {
 	void Start () {
         StartCoroutine(EndGame());
         //print("totla Seg " + GameManager.instance.minutesForRound * 60 + "crr seg " + (int)CarController.instance.time);
-        txtScore.text = Collectable.score+"";
+        txtScore.text = (Collectable.score*10)+"";
 	}
 
     private IEnumerator EndGame()
