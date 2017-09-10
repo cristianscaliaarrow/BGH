@@ -14,6 +14,7 @@ public class CarController : MonoBehaviour {
     public float timeToDiscount = 1;
     public float penaltyTime;
     private float crrTime;
+    public float Real_MaxSpeed;
 
 	// Use this for initialization
 	void Start () {
@@ -25,7 +26,6 @@ public class CarController : MonoBehaviour {
 
         time += Time.deltaTime;
         crrTime += Time.deltaTime;
-
         velocity = RCCUIDashboardDisplay.instance.inputs.KMH;
         if (velocity > maxVelocity)
         {
